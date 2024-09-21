@@ -1,0 +1,6 @@
+{
+  "id": "firefight:simple_bullet",
+  "damage": 1,
+  "speed": 1.5,
+  "armor_penetration": 0.1
+}

@@ -7,7 +7,7 @@ public class ForgeMod {
 
     public ForgeMod() {
 
-        Constants.LOG.info("Init FireFight Forge!");
+        Constants.LOGGER.info("Init FireFight Forge!");
         CommonClass.init();
 
     }

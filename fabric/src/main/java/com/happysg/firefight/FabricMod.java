@@ -6,7 +6,7 @@ public class FabricMod implements ModInitializer {
     
     @Override
     public void onInitialize() {
-        Constants.LOG.info("Init Fabric FireFight!");
+        Constants.LOGGER.info("Init Fabric FireFight!");
         CommonClass.init();
     }
 }

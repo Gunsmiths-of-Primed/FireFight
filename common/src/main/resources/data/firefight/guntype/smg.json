@@ -1,0 +1,9 @@
+{
+  "id": "firefight:smg",
+  "automatic": true,
+  "charge_up_ticks": 1,
+  "reload_ticks": 10,
+  "cooldown_ticks": 5,
+  "kickback": 0.1,
+  "aim_fov": 0.7
+}

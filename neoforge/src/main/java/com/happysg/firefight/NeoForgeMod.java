@@ -8,7 +8,7 @@ import net.neoforged.fml.common.Mod;
 public class NeoForgeMod {
 
     public NeoForgeMod(IEventBus eventBus) {
-        Constants.LOG.info("Init FireFight NeoForge!");
+        Constants.LOGGER.info("Init FireFight NeoForge!");
         CommonClass.init();
     }
 }

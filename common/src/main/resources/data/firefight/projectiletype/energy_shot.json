@@ -1,0 +1,6 @@
+{
+  "id": "firefight:energy_shot",
+  "damage": 20,
+  "speed": 5,
+  "armor_penetration": 0.5
+}

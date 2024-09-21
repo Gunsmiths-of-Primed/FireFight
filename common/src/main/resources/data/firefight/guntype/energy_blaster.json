@@ -1,0 +1,9 @@
+{
+  "id": "firefight:energy_blaster",
+  "automatic": false,
+  "charge_up_ticks": 2,
+  "reload_ticks": 20,
+  "cooldown_ticks": 2,
+  "kickback": 0.1,
+  "aim_fov": 0.7
+}

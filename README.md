@@ -1,9 +1,11 @@
 # FireFight Lib
 
-This library mod simplifies the process of adding projectile shooting capabilities to items, blocks, and entities, including players. It also provides a simple API for adding custom projectiles, all with data-driven configuration.
+This library mod simplifies the process of adding projectile shooting capabilities to items. It also provides a simple
+API for adding custom projectiles, all with data-driven configuration.
 
 ## Features
-- Easy integration of projectile mechanics into items, blocks, and entities.
+
+- Easy integration of projectile mechanics into items.
 - Simple API for adding custom projectiles.
 - Data-driven configuration for flexibility and ease of use.
 - Compatible with Minecraft version 1.21.1 and above.
