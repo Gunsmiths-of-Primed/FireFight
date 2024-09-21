@@ -87,3 +87,11 @@ sourceSets.each {
     it.output.resourcesDir = dir
     it.java.destinationDirectory = dir
 }
+
+jar {
+    manifest {
+        attributes([
+                "MixinConfigs": "firefight.forge.mixins.json,firefight.mixins.json" // mixin
+        ])
+    }
+}
