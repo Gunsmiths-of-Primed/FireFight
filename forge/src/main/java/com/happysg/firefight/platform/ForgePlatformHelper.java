@@ -2,6 +2,7 @@ package com.happysg.firefight.platform;
 
 import com.happysg.firefight.platform.services.IPlatformHelper;
 import net.minecraftforge.fml.ModList;
+import net.minecraftforge.fml.loading.FMLEnvironment;
 import net.minecraftforge.fml.loading.FMLLoader;
 
 public class ForgePlatformHelper implements IPlatformHelper {
@@ -23,4 +24,10 @@ public class ForgePlatformHelper implements IPlatformHelper {
 
         return !FMLLoader.isProduction();
     }
+
+    @Override
+    public boolean isPhysicalClient() {
+        return FMLEnvironment.dist.isClient();
+    }
+
 }

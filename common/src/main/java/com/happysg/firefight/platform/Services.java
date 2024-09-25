@@ -1,6 +1,7 @@
 package com.happysg.firefight.platform;
 
 import com.happysg.firefight.Constants;
+import com.happysg.firefight.platform.services.INetworkingHelper;
 import com.happysg.firefight.platform.services.IPlatformHelper;
 import com.happysg.firefight.platform.services.IRegistrationHelper;
 
@@ -16,6 +17,7 @@ public class Services {
     // mod is loaded.
     public static final IPlatformHelper PLATFORM = load(IPlatformHelper.class);
     public static final IRegistrationHelper REGISTRATION = load(IRegistrationHelper.class);
+    public static final INetworkingHelper NETWORKING = load(INetworkingHelper.class);
 
     // This code is used to load a service for the current environment. Your implementation of the service must be defined
     // manually by including a text file in META-INF/services named with the fully qualified class name of the service.

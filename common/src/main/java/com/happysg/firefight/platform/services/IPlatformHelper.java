@@ -25,6 +25,12 @@ public interface IPlatformHelper {
     boolean isDevelopmentEnvironment();
 
     /**
+     * @return Whether the current runtime is on the client side regardless of logical context
+     */
+    boolean isPhysicalClient();
+
+
+    /**
      * Gets the name of the environment type as a string.
      *
      * @return The name of the environment type.
